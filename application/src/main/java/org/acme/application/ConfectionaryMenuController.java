@@ -14,6 +14,10 @@ import org.acme.application.response.ConfectionaryMenuResponse;
 import org.acme.domain.service.CakeService;
 import org.acme.domain.service.CookieService;
 
+// TODO: mapping logic
+//    - to request/response objects
+//    - to/from DTOs?
+
 @Path("/confectionary-menu")
 @Consumes(MediaType.APPLICATION_JSON)
 @Produces(MediaType.APPLICATION_JSON)
